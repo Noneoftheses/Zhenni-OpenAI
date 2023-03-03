@@ -110,9 +110,7 @@ bot.on("message", async (ctx) => {
   // Start command.
   // This command will be executed first.
   // Don't ask this text to OpenAI, so I put return on the end of block.
-  if (text == "/start") {
-    return ctx.replyIt("test message");
-  }
+  if (text == "/start") return ctx.replyIt("Hello! I'm AI Bot. You can ask me anything.");
 
   try {
     // Ask to OpenAI.
