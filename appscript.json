@@ -1,0 +1,16 @@
+{
+  "timeZone": "Europe/Berlin",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "lumpia",
+      "libraryId": "1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj",
+      "version": "10"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
