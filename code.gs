@@ -87,10 +87,10 @@ function requestToOpenAi(text) {
   }
 }
 
-function replyMsg(chatId, text, msgId, options) {
+/*function replyMsg(chatId, text, msgId, options) {
   // Send answer from OpenAI to user.
   return client.sendMessage(chatId, text, { reply_to_message_id: msgId, ...options });
-}
+}*/
 
 function sendErrorToAdmin(error = Object) {
   for (var i in ADMIN_LIST) {
@@ -120,7 +120,7 @@ bot.on("message", async (ctx) => {
     ctx.replyWithChatAction("typing");
 
     var resultText = await requestToOpenAi(text);
-    replyMsg(ctx.chat.id, resultText, ctx.message.message_id);
+    ctx.replyIt(resultText);
   } catch (e) {
     sendErrorToAdmin(e);
     ctx.replyIt("Sorry, but I can't process your request right now. ;'(");
