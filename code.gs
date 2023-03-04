@@ -123,7 +123,7 @@ bot.on("message", async (ctx) => {
     ctx.replyIt(resultText);
   } catch (e) {
     sendErrorToAdmin(e);
-    ctx.replyIt("Sorry, but I can't process your request right now. ;'(");
+    ctx.replyIt("Sorry, but I can't process your request right now. :'(");
   }
 });
 
