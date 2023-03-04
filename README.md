@@ -35,5 +35,6 @@ You can see the original bot on the following link: [@ZhenniOpenAI_Bot](https://
 
 - Click `Save script properties`
 
-[Lumpia full documentations](https://lumpia.js.org)
+# ⚡ Deploying
+I will not show how to deploy the bot. Instead, you can view the following documentation: [Lumpia documentations](https://lumpia.js.org/docs/memulai/)
 
