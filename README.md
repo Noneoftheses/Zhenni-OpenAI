@@ -18,5 +18,22 @@ You can see the original bot on the following link: [@ZhenniOpenAI_Bot](https://
 - Version: Now the version is `10`. Always choose the largest version number!
 - ID: Keep the ID/name of the library is `lumpia`
 
+# 📑 Define properties
+- Go to [code.gs]() 
+
+- Copy the code and paste on the app script editor
+
+- On your app script editor, go to settings by clicking "⚙️"
+
+- Scroll down and search for `Script Properties`
+
+- Click `Add script properties`
+
+- Enter name with `api_key_openai` & value with your OpenAI API key
+
+- Add new property, Enter name again with `bot_token`& value with your bot token from [@BotFather](https://t.me/BotFather)
+
+- Click `Save script properties`
+
 [Lumpia full documentations](https://lumpia.js.org)
 
