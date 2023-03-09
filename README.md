@@ -38,3 +38,6 @@ You can see the original bot on the following link: [@ZhenniOpenAI_Bot](https://
 # ⚡ Deploying
 I will not show how to deploy the bot. Instead, you can view the following documentation: [Lumpia documentations](https://lumpia.js.org/docs/memulai/)
 
+
+- 💜 Simple tutorial: [telegra.ph](https://telegra.ph/Google-App-Script-Telegram-Bot-03-08)
+- 📚 Full documentation: [lumpia.js.org](https://lumpia.js.org/)
